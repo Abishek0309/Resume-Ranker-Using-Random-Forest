@@ -15,7 +15,7 @@ This project aims to match resumes with a given job description using Natural La
    cd Resume-Ranker-Using-Random-Forest
 
 ## Install the required dependencies
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 ## Usage
 Prepare your dataset: Ensure you have a CSV file containing resume data. Columns like 'name', 'degree', 'links', and 'work_experience' are expected.
@@ -30,8 +30,11 @@ Gradio Interface: Launch the Gradio interface to upload a job description file a
 
 ## File Structure
 resumeparserfinal.ipynb: The main Python script containing the code for data preprocessing, feature engineering, and model training.
+
 Job_Description.txt: Sample job description file used for scoring resumes.
+
 Resume_Ranking_Data_Set.csv: Sample CSV file containing resume data.
+
 requirements.txt: List of required Python packages.
 
 ## Results
@@ -41,8 +44,6 @@ The Gradio interface provides an interactive way to upload job descriptions and 
 The project uses the Gradio library for creating an interactive interface.
 Special thanks to the contributors and maintainers of the open-source libraries used in this project.
 
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 
 
