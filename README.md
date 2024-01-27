@@ -5,7 +5,7 @@
 This project aims to match resumes with a given job description using Natural Language Processing (NLP) techniques. It leverages TF-IDF cosine similarity and a Random Forest Regressor to score resumes based on their relevance to the provided job description.
 
 ## Requirements
-- Python 3.x
+- Python 3.x 
 - Required Python libraries: pandas, numpy, nltk, scikit-learn, gradio
 
 ## Installation
