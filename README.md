@@ -30,6 +30,7 @@ This project aims to match resumes with a given job description using Natural La
 
 ## File Structure
 ├── Resume Ranker
+   |===>Job Description
 │   ├── Job Description.txt   
 |   ├── Resume Ranker.ipynb
 │   └── Data Set.csv             
