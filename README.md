@@ -31,11 +31,11 @@ This project aims to match resumes with a given job description using Natural La
 ## File Structure
 ├── Resume Ranker
 
-|     ├── Job Description.txt   
+│   ├── Job Description.txt   
 
-|     ├── Resume Ranker.ipynb
+|   ├── Resume Ranker.ipynb
 
-|     └── Data Set.csv             
+│   └── Resume Ranking Data Set.csv                    
 
 ## Results
 The Gradio interface provides an interactive way to upload job descriptions and receive the top 10 matching resumes along with their scores.
