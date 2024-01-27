@@ -29,13 +29,11 @@ This project aims to match resumes with a given job description using Natural La
  Gradio Interface: Launch the Gradio interface to upload a job description file and get the top 10 matching resumes.
 
 ## File Structure
- resumeparserfinal.ipynb: The main Python script containing the code for data preprocessing, feature engineering, and model training.
-
- Job_Description.txt: Sample job description file used for scoring resumes.
-
- Resume_Ranking_Data_Set.csv: Sample CSV file containing resume data.
-
- requirements.txt: List of required Python packages.
+ |-- Resume-Ranker-Using-Random-Forest
+    |-- resumeparserfinal.ipynb        # The main Python script for preprocessing, feature engineering, and model training.
+    |-- Job_Description.txt            # Sample job description file used for scoring resumes.
+    |-- Resume_Ranking_Data_Set.csv    # Sample CSV file containing resume data.
+    |-- requirements.txt               # List of required Python packages.
 
 ## Results
 The Gradio interface provides an interactive way to upload job descriptions and receive the top 10 matching resumes along with their scores.
