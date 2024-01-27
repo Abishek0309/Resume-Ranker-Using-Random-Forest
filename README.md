@@ -18,24 +18,24 @@ This project aims to match resumes with a given job description using Natural La
     pip install -r requirements.txt
 
 ## Usage
-## Prepare your dataset: Ensure you have a CSV file containing resume data. Columns like 'name', 'degree', 'links', and 'work_experience' are expected.
+ Prepare your dataset: Ensure you have a CSV file containing resume data. Columns like 'name', 'degree', 'links', and 'work_experience' are expected.
 
-## Data Preprocessing: The script performs various data preprocessing steps, including handling missing values and extracting relevant information from the dataset.
+ Data Preprocessing: The script performs various data preprocessing steps, including handling missing values and extracting relevant information from the dataset.
 
-## TF-IDF Cosine Similarity: Resumes are scored based on their similarity to a provided job description using TF-IDF cosine similarity.
+ TF-IDF Cosine Similarity: Resumes are scored based on their similarity to a provided job description using TF-IDF cosine similarity.
 
-## Model Training: The Random Forest Regressor is used to predict resume scores based on encoded features.
+ Model Training: The Random Forest Regressor is used to predict resume scores based on encoded features.
 
-## Gradio Interface: Launch the Gradio interface to upload a job description file and get the top 10 matching resumes.
+ Gradio Interface: Launch the Gradio interface to upload a job description file and get the top 10 matching resumes.
 
 ## File Structure
-## resumeparserfinal.ipynb: The main Python script containing the code for data preprocessing, feature engineering, and model training.
+ resumeparserfinal.ipynb: The main Python script containing the code for data preprocessing, feature engineering, and model training.
 
-## Job_Description.txt: Sample job description file used for scoring resumes.
+ Job_Description.txt: Sample job description file used for scoring resumes.
 
-## Resume_Ranking_Data_Set.csv: Sample CSV file containing resume data.
+ Resume_Ranking_Data_Set.csv: Sample CSV file containing resume data.
 
-## requirements.txt: List of required Python packages.
+ requirements.txt: List of required Python packages.
 
 ## Results
 The Gradio interface provides an interactive way to upload job descriptions and receive the top 10 matching resumes along with their scores.
